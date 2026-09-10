@@ -20,7 +20,7 @@ This repository enables developers to **execute arbitrary Python and Bash script
 
 ### 💡 Project Inspiration & Context
 
-This project was directly inspired by Google Cloud Champion Innovator **Romin Irani's** exceptional article, [**Safely Running Untrusted Code: A Hands-On Guide to Google Cloud Run Sandboxes**](https://medium.com/google-cloud/safely-running-untrusted-code-a-hands-on-guide-to-google-cloud-run-sandboxes-8bbc95d391c7). In his guide, Irani brilliantly illuminated how Cloud Run Sandboxes utilize gVisor application kernel technology to provide lightweight, ephemeral micro-isolation for untrusted code execution with remarkable elegance and simplicity.
+This project was directly inspired by **Romin Irani's** exceptional article, [**Safely Running Untrusted Code: A Hands-On Guide to Google Cloud Run Sandboxes**](https://medium.com/google-cloud/safely-running-untrusted-code-a-hands-on-guide-to-google-cloud-run-sandboxes-8bbc95d391c7). In his guide, Irani brilliantly illuminated how Cloud Run Sandboxes utilize gVisor application kernel technology to provide lightweight, ephemeral micro-isolation for untrusted code execution with remarkable elegance and simplicity.
 
 In my previous work, [**Taking Advantage of Gemini Managed Agents with Google Apps Script**](https://medium.com/google-cloud/taking-advantage-of-gemini-managed-agents-with-google-apps-script-19215ab8c61f), I demonstrated how to connect Google Apps Script to persistent Linux sandboxes provisioned by Gemini Managed Agents using my Go CLI tool [`ggsrun`](https://github.com/tanaikech/ggsrun). That architecture excels at heavy, multi-turn agentic workflows (such as Playwright headless browser scraping and FFmpeg audio transcoding).
 
