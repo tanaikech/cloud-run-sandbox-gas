@@ -1,0 +1,16 @@
+# Ignore article directory and internal research plan
+article/
+research_plan.md
+**/research_plan.md
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS / Editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
